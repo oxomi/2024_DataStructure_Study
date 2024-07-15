@@ -16,3 +16,5 @@ int main(void){
         cout << arr[i] << " ";
     }
 }
+
+//swap으로 reverse 직접 구하는 것도 해보기!
