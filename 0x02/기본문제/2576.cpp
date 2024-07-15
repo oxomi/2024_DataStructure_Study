@@ -32,7 +32,7 @@ int main(void){
       odd += 1;
       sum += x;
 
-      if (x < min) { //와우
+      if (x < min) { //이걸 생각 못해서 개길어짐
         min = x;
       }
     }
