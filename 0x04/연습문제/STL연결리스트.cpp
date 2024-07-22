@@ -1,3 +1,5 @@
+//STL연결리스트에서는 제일 뒤의 원소를 더미 노드로 사용한다.
+//따라서 L.end()제일 뒤에 있는 실질원소의 한칸 뒤를 가리킨다는 점에 주의해야 한다.
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -17,3 +19,4 @@ int main(void) {
   for(list<int>::iterator it = L.begin(); it != L.end(); it++)
     cout << *it << ' ';
 }
+
