@@ -1,4 +1,6 @@
 //헷갈린다 혼자서 못풀었음
+//연결리스트로 구현하는 원형
+//다음에 원형 큐로도 구현해보아야 함
 #include <bits/stdc++.h>
 using namespace std;
 
