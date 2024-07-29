@@ -29,7 +29,7 @@ int main(void){
     for(int dir = 0; dir < 4; dir++){ // 상하좌우 칸을 살펴볼 것이다.
       int nx = cur.X + dx[dir];
       int ny = cur.Y + dy[dir]; // nx, ny에 dir에서 정한 방향의 인접한 칸의 좌표가 들어감
-      if(nx < 0 || nx >= n || ny < 0 || ny >= m) continue; // 범위 밖일 경우 넘어감
+      if(nx < 0 || nx >= n || ny < 0 || ny >= m) continue; // 범위 밖일 경우 넘어감 //배열의 크기가 n x m이면 유효한 인덱스는 0부터 n-1까지와 0부터 m-1까지임.
       if(vis[nx][ny] == 1 || board[nx][ny] != 1) continue; // 이미 방문한 칸이거나 파란 칸이 아닐 경우 넘어감
       vis[nx][ny] = 1; // (nx, ny)를 방문했다고 명시
       Q.push({nx,ny});
